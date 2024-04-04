@@ -67,7 +67,10 @@ Below is a minor component diagram showing the main components of the tool in a 
         --sys \
         --version=$version
 ```
-```$ ./query_sys.py -h
+$ ./query_sys.py -h
+<div style="text-align:center;">
+    <img src="https://github.com/SamNour/api-syscalls-analyser/assets/96638051/05391cac-dfe5-4719-9860-521ae80c2bc8" alt="Selection_037" width="500">
+</div>
 
 ## Output files
 - The following section shows briefly how the analysis output should be represented
