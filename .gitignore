@@ -1,0 +1,11 @@
+*
+!requirements.txt
+!.gitignore
+!api_parsing.py
+!gendocs.py
+!query_sys.py
+!kern.py
+!Trie.py
+!utilities.py
+!cli.py
+!edit_etc_profile.py
