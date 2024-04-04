@@ -9,7 +9,8 @@
 - [Output files](#output-files)
   - [filtered_api_calls.json](#filtered_api_callsjson)
   - [system_calls_per_repo.txt](#system_calls_per_repotxt)
-
+  - [syscalls_per_file_output_repos.txt](#syscalls_per_file_output_repostxt)
+- [Help](#help)
 ## About
 ### System calls
 - This tool is capable of extracting all the system calls for i386 arch from the repositories in a recursive manner; the references for the i386 calls are extracted from [strace syscallent.h](https://gitlab.com/strace/strace/-/blob/master/src/linux/i386/syscallent.h?ref_type=heads)
@@ -72,6 +73,7 @@ Below is a Component Diagram showing the main components of the tool in a very a
         --sys \
         --version=$version
 ```
+## Help
 $ ./query_sys.py -h
 <div style="text-align:center;">
     <img src="https://github.com/SamNour/api-syscalls-analyser/assets/96638051/05391cac-dfe5-4719-9860-521ae80c2bc8" alt="Selection_037" width="500">
