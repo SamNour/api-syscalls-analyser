@@ -7,6 +7,8 @@
 - [Setup-script](#setup-script)
 - [run-script](#run-script)
 - [Output files](#output-files)
+  - [filtered_api_calls.json](#filtered_api_callsjson)
+
 ## About
 ### System calls
 - This tool is capable of extracting all the system calls for i386 arch from the repositories in a recursive manner; the references for the i386 calls are extracted from [strace syscallent.h](https://gitlab.com/strace/strace/-/blob/master/src/linux/i386/syscallent.h?ref_type=heads)
