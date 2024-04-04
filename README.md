@@ -4,14 +4,14 @@
 - [Architecture](#architecture)
 - [How it works](#how-it-works)
 - [Example](#example)
-- [setup-script](#setup-script)
+- [Setup-script](#setup-script)
 ## About
-### Sytem calls
-- This tool is capable of extracting all the system calls for i386 arch from the repositories in a recursive manner, the references for the i386 calls are extracted from [strace syscallent.h](https://gitlab.com/strace/strace/-/blob/master/src/linux/i386/syscallent.h?ref_type=heads)
+### System calls
+- This tool is capable of extracting all the system calls for i386 arch from the repositories in a recursive manner; the references for the i386 calls are extracted from [strace syscallent.h](https://gitlab.com/strace/strace/-/blob/master/src/linux/i386/syscallent.h?ref_type=heads)
 ### API calls
 - This tool leverages the Elixir Bootlin API and its project indexing capabilities. Its user-friendly nature sets it apart, allowing it to analyze multiple local or remote repositories. It extracts any API calls for user-specific indexed repositories and presents them in a readable JSON format. It also identifies the programming language used (C/C++), conducts lexical analysis on the source code, identifies functions, and retrieves them from the indexed database. 
 
-- Currently by using the ./setup.sh <git URL>, the tool is able to create the indexed database for any specified project, as long as:
+- Currently, by using the ./setup.sh <git URL>, the tool is able to create the indexed database for any specified project, as long as:
   - Project sources are available in a Git repository
   - All project releases are associated with a specific **Git tag**.
 
@@ -29,8 +29,8 @@ Note: Currently, the only supported languages are C and C++.
                                                 |---------------|----------------|
                                                 |           Python script        |
                                                 ----------------------------------
-### Querying system calls - component diagram.
-Below is a minor component diagram showing the main components of the tool in a very abstract manner. 
+### Querying system calls - Component Diagram.
+Below is a Component Diagram showing the main components of the tool in a very abstract manner. 
 <div style="text-align:center;">
     <img src="https://github.com/SamNour/api-syscalls-analyser/assets/96638051/2dead32c-b9e5-4ebc-97ce-ebdcf380ad1d" alt="Selection_025" width="300">
 </div>
