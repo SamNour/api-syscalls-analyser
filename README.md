@@ -1,12 +1,12 @@
 ### Table of contents
-- [About](#About) 
+- [About](#about) 
 - [Requirements](#requirements)
-- [Architecture](#architecture)
+- [Architecture](#abstract-architecture)
 - [How it works](#how-it-works)
 - [Example](#example)
 - [Setup-script](#setup-script)
 - [run-script](#run-script)
--  [Output files](#Output files)
+- [Output files](#output-files)
 ## About
 ### System calls
 - This tool is capable of extracting all the system calls for i386 arch from the repositories in a recursive manner; the references for the i386 calls are extracted from [strace syscallent.h](https://gitlab.com/strace/strace/-/blob/master/src/linux/i386/syscallent.h?ref_type=heads)
