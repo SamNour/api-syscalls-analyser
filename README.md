@@ -8,6 +8,7 @@
 - [run-script](#run-script)
 - [Output files](#output-files)
   - [filtered_api_calls.json](#filtered_api_callsjson)
+  - [system_calls_per_repo.txt](#system_calls_per_repotxt)
 
 ## About
 ### System calls
