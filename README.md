@@ -46,7 +46,7 @@ Below is a Component Diagram showing the main components of the tool in a very a
 ![pptF9C2 pptm  -  AutoRecovered](https://github.com/SamNour/api-syscalls-analyser/assets/96638051/851f92c2-6118-4677-84d2-4f941f76c861)
   
 ## Example
-![ezgif-3-ade8c57462](https://github.com/user-attachments/assets/db20a5ac-9a5c-4682-8036-a752f23c2628)
+https://github.com/user-attachments/assets/db20a5ac-9a5c-4682-8036-a752f23c2628
 
 
 
